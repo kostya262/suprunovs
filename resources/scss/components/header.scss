@@ -1,0 +1,38 @@
+.header {
+    z-index: 1000;
+    background-color: $blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2.8em -0px;
+
+    &-container {
+        display: flex;
+        align-items: center;
+    }
+
+    &-logo {
+        max-width: 157px;
+    }
+
+    &-menu {
+        display: flex;
+        margin-left: 6.1em;
+
+        &-link {
+            color: $white;
+            text-decoration: none;
+            letter-spacing: .08em;
+            transition: color .3s ease-in-out;
+
+            &:not(:last-child) {
+                margin-right: 4em;
+            }
+
+            &:hover {
+                color: $orange;
+            }
+        }
+    }
+}

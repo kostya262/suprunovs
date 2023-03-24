@@ -1,0 +1,37 @@
+.feedback {
+    padding: 100px 0;
+
+    &-item {
+        max-width: 350px;
+    }
+
+    &-content {
+        padding: 62px 45px;
+        min-height: 211px;
+        background: $white;
+        border-radius: 15.5065px;
+    }
+
+    &-writer {
+        padding-top: 12px;
+        gap: 18px;
+        display: flex;
+        color: $white;
+        align-items: center;
+        position: relative;
+
+        &::after {
+            content: url('/images/feedback-arrow.svg');
+            width: 27px;
+            height: 36px;
+            display: block;
+            position: absolute;
+            top: -3px;
+            left: 56px;
+        }
+    }
+
+    &-subtitle {
+        margin: 0 0 5px;
+    }
+}

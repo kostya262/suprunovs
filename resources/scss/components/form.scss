@@ -1,0 +1,51 @@
+.form {
+    padding: 28px 0 69px;
+
+    &-container {
+        background-image: url('/images/form.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &-wrapper {
+        padding: 74px 0 34px;
+        margin-left: auto;
+        max-width: 370px;
+    }
+
+    &-group {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    &-input {
+        background-color: $white;
+        border: none;
+        border-radius: 45px;
+        padding: 14px 26px;
+        width: 100%;
+
+        &::placeholder {
+            color: $gray;
+        }
+    }
+
+    &-date, &-time {
+        width: 100%;
+        padding: 14px 28px;
+        background: #FFFFFF;
+        border-radius: 6.61479px;
+
+        &::-webkit-calendar-picker-indicator {
+            transform: scale(2);
+            filter: invert(71%) sepia(66%) saturate(1541%) hue-rotate(358deg) brightness(100%) contrast(106%);
+        }
+    }
+
+    &-time {
+        flex: 0 0 179px;
+        padding: 14px 50px;
+    }
+}

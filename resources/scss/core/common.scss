@@ -1,0 +1,84 @@
+body {
+    font-family: Gilroy, sans-serif;
+}
+
+.btn {
+    background: $button_gradient;
+    border: none;
+    font-size: 1.15em;
+    font-weight: 700;
+    font-family: Gilroy;
+    color: $white;
+    border-radius: 2.5em;
+    padding: 1.1em 4.1em;
+    transition: transform .3s ease-in-out;
+
+    &-lg {
+        width: 100%;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.title {
+    color: $blue;
+    font-size: 2.2em;
+    line-height: 1;
+    text-align: center;
+
+    &-orange {
+        //padding: .8em 0 1.5em;
+        color: $orange;
+    }
+}
+
+.bg-blue {
+    padding: 32px 0;
+    background-color: $blue;
+    background-image: url('/images/twigs.png');
+    background-size: contain;
+    background-position: bottom left;
+
+    .title {
+        margin: 0;
+        padding: 0 0 32px;
+    }
+}
+
+.slick-list {
+    max-width: 1114px;
+    margin: 0 auto !important;
+}
+
+.slick-arrow {
+    cursor: pointer;
+    width: 26px;
+    height: 44px;
+    position: absolute;
+    border: none;
+    color: transparent;
+    background-color: transparent;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slick-next {
+    right: 0;
+    background-image: url('/images/right-arrow.svg');
+}
+
+.slick-prev {
+    left: 0;
+    background-image: url('/images/left-arrow.svg');
+}
+
+.list {
+    overflow: hidden;
+    display: flex;
+}
+
+.block {
+    padding: 16px 0 0;
+}

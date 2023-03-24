@@ -1,0 +1,12 @@
+$gap: 16px;
+
+.container {
+    max-width: calc(1224px + $gap * 2);
+    margin: 0 auto;
+    padding-left: $gap;
+    padding-right: $gap;
+
+    &-sm {
+        max-width: calc(1115px + $gap * 2);
+    }
+}

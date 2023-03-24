@@ -1,0 +1,25 @@
+// begin fonts
+@import "./fonts/Gilroy";
+// end fonts
+
+// core styles
+@import './core/reset';
+@import "./core/container";
+@import "./core/variables";
+@import "./core/common";
+// end core styles
+
+// components styles
+@import "./components/header";
+@import "./components/hero";
+@import "./components/doctors";
+@import "./components/rules";
+@import "./components/docs";
+@import "./components/price";
+@import "./components/license";
+@import "./components/about";
+@import "./components/feedback";
+@import "./components/phones";
+@import "./components/form";
+@import "./components/footer";
+// end components styles

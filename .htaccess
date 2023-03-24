@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteBase /
+
+# Rewrite www.domain.com -> domain.com
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# Rewrite secure requests properly to prevent SSL cert warnings, e.g. prevent
+# https://www.domain.com when your cert only allows https://secure.domain.com
+RewriteCond %{SERVER_PORT} !^443
+RewriteCond %{HTTP_HOST} (.*)
+RewriteCond %{REMOTE_ADDR} !127.0.0.1
+RewriteRule (.*) https://%1/$1 [R=301,L]
+
+<FilesMatch "\.(?i:pdf)$">
+ForceType application/octet-stream
+Header set Content-Disposition attachment
+</FilesMatch>

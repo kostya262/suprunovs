@@ -1,0 +1,22 @@
+.rules {
+    padding-bottom: 80px;
+
+    &-list {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &-item {
+        border: 0.845254px solid $orange_light;
+        border-radius: 12.6788px;
+        width: 398px;
+        padding: 13px 28px;
+    }
+
+    &-subtitle {
+        color: $blue;
+        margin: 0 0 10px;
+    }
+}

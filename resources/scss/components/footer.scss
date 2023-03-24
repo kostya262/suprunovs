@@ -1,0 +1,45 @@
+.footer {
+    padding: 50px 0;
+    background-color: $blue;
+
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $white;
+    }
+
+    &-logo {
+        width: 226px;
+    }
+
+    .footer-contacts {
+        max-width: 311px;
+
+        & > p {
+            margin: 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+
+            &:not(:last-child) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .footer-link {
+        align-items: center !important;
+        line-height: 1;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            transition: .3s ease-in-out;
+
+            &:hover {
+                color: $orange;
+            }
+        }
+    }
+}
