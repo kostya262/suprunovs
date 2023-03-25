@@ -11,7 +11,7 @@ $(document).ready(() => {
     })
 
     $(docs_slider).slick({
-        slidesToShow: 3,
+        slidesToShow: 2,
         adaptiveHeight: true,
     })
 
@@ -21,7 +21,7 @@ $(document).ready(() => {
     })
 
     $(license_slider).slick({
-        slidesToShow: 3,
+        slidesToShow: 2,
         adaptiveHeight: true,
     })
 

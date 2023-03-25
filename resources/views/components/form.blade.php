@@ -1,4 +1,4 @@
-<div class="form bg-blue">
+<div class="form bg-blue" id="form">
     <div class="container container-sm form-container">
         <div class="form-wrapper">
             <h2 class="title title-orange">Записаться на прием</h2>

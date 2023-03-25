@@ -1,4 +1,4 @@
-<div class="about">
+<div class="about" id="about">
     <div class="container container-sm">
         <h2 class="title">Семейная стоматологическая клиника — Супруновы</h2>
         <div class="about-content">

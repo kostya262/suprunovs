@@ -1,4 +1,4 @@
-<div class="rules">
+<div class="rules" id="rules">
     <div class="container">
         <h2 class="title">Обязательные правила клиники</h2>
         <div class="rules-list">

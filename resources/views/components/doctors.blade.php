@@ -1,4 +1,4 @@
-<div class="doctors-wrapper">
+<div class="doctors-wrapper" id="doctors">
     <div class="doctors">
         <div class="doctors-container container">
             <h2 class="title doctors-title">Наши специалисты</h2>

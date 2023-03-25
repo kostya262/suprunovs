@@ -1,4 +1,4 @@
-<div class="price">
+<div class="price" id="price">
     <div class="container">
         <h2 class="title">Цены</h2>
         <div class="price-list list" id="price_slider">

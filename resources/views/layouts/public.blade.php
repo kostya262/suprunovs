@@ -84,11 +84,11 @@
     <div class="container container-sm header-container">
         <img src="/images/logo.png" alt="Супруновы" class="header-logo fast_background">
         <nav class="header-menu">
-            <a href="" class="header-menu-link">Приемная</a>
-            <a href="" class="header-menu-link">Клиника</a>
-            <a href="" class="header-menu-link">Цены</a>
-            <a href="" class="header-menu-link">Пациентам</a>
-            <a href="" class="header-menu-link">Контакты</a>
+            <a href="#index" class="header-menu-link">Приемная</a>
+            <a href="#doctors" class="header-menu-link">Клиника</a>
+            <a href="#price" class="header-menu-link">Цены</a>
+            <a href="#license" class="header-menu-link">Пациентам</a>
+            <a href="#form" class="header-menu-link">Контакты</a>
         </nav>
     </div>
 </header>

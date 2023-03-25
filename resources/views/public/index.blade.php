@@ -1,7 +1,7 @@
 @extends('layouts.public')
 
 @section('content')
-    <div class="hero-wrapper">
+    <div class="hero-wrapper" id="index">
         <div class="hero">
             <div class="hero-container container container-sm">
                 <div class="hero-content">
