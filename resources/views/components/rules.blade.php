@@ -14,7 +14,7 @@
             </div>
             <div class="rules-item">
                 <h3 class="rules-subtitle">Правило № 3.</h3>
-                <p class="rules-description">Использование средств защиты и одноразового стерильного инструментария.</p>
+                <p class="rules-description">Использование средств защиты и стерильного инструментария.</p>
             </div>
             <div class="rules-item">
                 <h3 class="rules-subtitle">Правило № 4.</h3>

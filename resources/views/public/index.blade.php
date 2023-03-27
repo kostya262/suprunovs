@@ -6,8 +6,8 @@
             <div class="hero-container container container-sm">
                 <div class="hero-content">
                     <h1 class="hero-title">
-                        Всего несколько кликов,
-                        и&nbsp;у&nbsp;вас&nbsp;будет&nbsp;потрясающая&nbsp;улыбка…
+                        Всего несколько кликов,<br>
+                        и у вас будет потрясающая улыбка…
                     </h1>
                     <p class="hero-description">
                         Для этого в клинике применяются самые современные материалы и технологии, которые позволяют

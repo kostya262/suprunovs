@@ -92,7 +92,7 @@
         </nav>
     </div>
 </header>
-<main>
+<main style="overflow: hidden">
     @yield('content')
 </main>
 <footer class="footer">

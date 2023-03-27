@@ -6,7 +6,19 @@ $gap: 16px;
     padding-left: $gap;
     padding-right: $gap;
 
+    @media (max-width: 1100px) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        max-width: 100%;
+    }
+
     &-sm {
         max-width: calc(1115px + $gap * 2);
+
+        @media (max-width: 1100px) {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            max-width: 100%;
+        }
     }
 }
