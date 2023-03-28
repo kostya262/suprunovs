@@ -296,6 +296,12 @@ body {
     text-align: center
 }
 
+@media (max-width: 700px) {
+    .title {
+        font-size: 1.7em
+    }
+}
+
 .title-orange {
     color: #ffd600
 }
@@ -438,6 +444,12 @@ body {
     }
 }
 
+@media (max-width: 1000px) {
+    .hero-container {
+        padding-top: 10em
+    }
+}
+
 .hero-content {
     max-width: 660px
 }
@@ -448,6 +460,12 @@ body {
     font-size: 2.35em;
     line-height: 1.2em;
     color: #fff
+}
+
+@media (max-width: 700px) {
+    .hero-title {
+        font-size: 1.7em
+    }
 }
 
 .hero-description {
