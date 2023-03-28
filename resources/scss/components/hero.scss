@@ -17,10 +17,7 @@
         background-size: 32.1em;
         background-position: 113% 62%;
         background-origin: content-box;
-
-        //@media (min-width: 1232px) {
         background-image: url('/images/hero.png');
-        //}
 
         @media (max-width: 1232px) {
             background-origin: padding-box;

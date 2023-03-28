@@ -90,6 +90,9 @@
             <a href="#license" class="header-menu-link">Пациентам</a>
             <a href="#form" class="header-menu-link">Контакты</a>
         </nav>
+        <button class="header-burger">
+            <img src="/images/burger.png" alt="burger">
+        </button>
     </div>
 </header>
 <main style="overflow: hidden">

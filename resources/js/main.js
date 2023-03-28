@@ -1,4 +1,13 @@
 $(document).ready(() => {
+
+    $('.header-burger').on('click', () => {
+        $('.header-menu').toggleClass('open')
+    })
+
+    $('.header-menu-link').on('click', () => {
+        $('.header-menu').removeClass('open')
+    })
+
     var doctors_slider = document.getElementById('doctors_slider');
     var docs_slider = document.getElementById('docs_slider');
     var license_slider = document.getElementById('license_slider');
