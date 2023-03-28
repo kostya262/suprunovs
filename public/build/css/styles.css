@@ -366,6 +366,12 @@ body {
     padding: 2.8em 0
 }
 
+@media (max-width: 720px) {
+    .header {
+        padding: 1.2em 0
+    }
+}
+
 .header-container {
     display: flex;
     align-items: center
@@ -375,15 +381,26 @@ body {
     max-width: 157px
 }
 
+@media (max-width: 720px) {
+    .header-logo {
+        max-width: 210px
+    }
+}
+
 .header-burger {
     cursor: pointer;
-    width: 40px;
+    width: 51px;
+    height: 51px;
     border: 0;
     padding: 0;
     background-color: transparent;
     margin-left: auto;
     display: none;
     z-index: 100
+}
+
+.header-burger img {
+    width: 100%
 }
 
 @media (max-width: 1100px) {
