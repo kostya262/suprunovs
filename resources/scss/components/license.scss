@@ -1,5 +1,11 @@
 .license {
-    &-item img {
-        height: 506px;
+    &-item {
+        @media (max-width: 1500px) {
+            padding: 0 15px;
+        }
+
+        img {
+            height: 506px;
+        }
     }
 }

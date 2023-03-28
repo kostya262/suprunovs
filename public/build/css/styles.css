@@ -247,8 +247,8 @@ canvas {
 
 @media (max-width: 1100px) {
     .container {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
         max-width: 100%
     }
 }
@@ -259,8 +259,8 @@ canvas {
 
 @media (max-width: 1100px) {
     .container-sm {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
         max-width: 100%
     }
 }
@@ -319,6 +319,7 @@ body {
 }
 
 .slick-arrow {
+    z-index: 10;
     cursor: pointer;
     width: 26px;
     height: 44px;
@@ -368,6 +369,12 @@ body {
     max-width: 157px
 }
 
+@media (max-width: 1100px) {
+    .header-logo {
+        margin: 0 auto
+    }
+}
+
 .header-menu {
     display: flex;
     margin-left: 6.1em
@@ -375,6 +382,7 @@ body {
 
 @media (max-width: 1100px) {
     .header-menu {
+        display: none;
         flex-wrap: wrap;
         gap: 20px;
         margin-left: 1em
@@ -457,6 +465,12 @@ body {
     width: 16.5em
 }
 
+@media (max-width: 1400px) {
+    .doctors-item {
+        padding: 0 15px
+    }
+}
+
 .doctors-item:hover .doctors-content {
     color: #fff;
     background-color: #083893
@@ -516,6 +530,12 @@ body {
     margin: 0 0 10px
 }
 
+@media (max-width: 1500px) {
+    .docs-item {
+        padding: 0 15px
+    }
+}
+
 .docs-item img {
     height: 506px
 }
@@ -559,6 +579,12 @@ body {
     font-weight: 700;
     font-size: 22px;
     color: #ffb800
+}
+
+@media (max-width: 1500px) {
+    .license-item {
+        padding: 0 15px
+    }
 }
 
 .license-item img {
@@ -626,6 +652,12 @@ body {
 
 .feedback-item {
     max-width: 350px
+}
+
+@media (max-width: 1500px) {
+    .feedback-item {
+        padding: 0 15px
+    }
 }
 
 .feedback-content {

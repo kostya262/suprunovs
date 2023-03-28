@@ -3,6 +3,10 @@
 
     &-item {
         max-width: 350px;
+
+        @media (max-width: 1500px) {
+            padding: 0 15px;
+        }
     }
 
     &-content {

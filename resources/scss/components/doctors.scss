@@ -2,6 +2,10 @@
     &-item {
         width: 16.5em;
 
+        @media (max-width: 1400px) {
+            padding: 0 15px;
+        }
+
         &:hover {
             .doctors-content {
                 color: $white;
