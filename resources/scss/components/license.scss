@@ -6,6 +6,10 @@
 
         img {
             height: 506px;
+
+            @media (max-width: 1000px) {
+                height: 350px;
+            }
         }
     }
 }
