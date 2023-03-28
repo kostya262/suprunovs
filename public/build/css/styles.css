@@ -728,6 +728,13 @@ body {
     box-shadow: 0 3.93258px 3.93258px rgba(88, 140, 236, .31)
 }
 
+@media (max-width: 720px) {
+    .phones table thead th {
+        padding: 10px 0;
+        font-size: 12px
+    }
+}
+
 .phones table tbody tr {
     background: #fff;
     box-shadow: 0 3.93258px 3.93258px rgba(88, 140, 236, .25)
@@ -735,6 +742,12 @@ body {
 
 .phones table tbody td {
     padding: 20px 5px
+}
+
+@media (max-width: 720px) {
+    .phones table tbody td {
+        font-size: 10px
+    }
 }
 
 .form {

@@ -1,5 +1,4 @@
 .phones {
-    overflow: scroll;
     padding-bottom: 100px;
 
     &-title {
@@ -15,6 +14,11 @@
                 padding: 20px 40px 20px;
                 background: #FFFFFF;
                 box-shadow: 0 3.93258px 3.93258px rgba(88, 140, 236, 0.31);
+
+                @media (max-width: 720px) {
+                    padding: 10px 0;
+                    font-size: 12px;
+                }
             }
         }
 
@@ -26,6 +30,11 @@
 
             td {
                 padding: 20px 5px;
+
+                @media (max-width: 720px) {
+                    padding: 10px 5px;
+                    font-size: 12px;
+                }
             }
         }
     }
