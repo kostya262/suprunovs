@@ -18,8 +18,22 @@
         background-position: 113% 62%;
         background-origin: content-box;
 
-        @media (min-width: 1232px) {
-            background-image: url('/images/hero.png');
+        //@media (min-width: 1232px) {
+        background-image: url('/images/hero.png');
+        //}
+
+        @media (max-width: 1232px) {
+            background-origin: padding-box;
+            background-size: 27.1em;
+            padding-bottom: 330px;
+            background-position: 84% 92%;
+        }
+
+        @media (max-width: 780px) {
+            background-size: 18.1em;
+            background-position: center 98%;
+            background-origin: padding-box;
+            padding-bottom: 330px;
         }
 
         @media (max-width: 1000px) {
