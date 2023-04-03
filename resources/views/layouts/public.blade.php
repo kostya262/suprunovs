@@ -126,7 +126,7 @@
                 <a href="https://vk.com/suprunovistomatologia" target="_blank"><img src="/images/vk.svg" alt=""
                                                                                     width="32"></a>
                 <a href="https://www.instagram.com/suprunovi_stomatologia/" target="_blank"><img src="/images/insta.svg"
-                                                                                                 alt="" width="32"></a>
+                                                                                                 alt="" width="38"></a>
             </p>
         </div>
     </div>
