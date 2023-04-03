@@ -21,11 +21,14 @@
             </div>
         </div>
     </div>
-    <section class="block">
-        @include('components.doctors')
-    </section>
+    {{--    <section class="block">--}}
+    {{--        @include('components.doctors')--}}
+    {{--    </section>--}}
     <section class="block">
         @include('components.rules')
+    </section>
+    <section class="block">
+        @include('components.services')
     </section>
     <section class="block">
         @include('components.docs')

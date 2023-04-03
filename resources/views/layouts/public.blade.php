@@ -121,6 +121,13 @@
                 <a href="tel:+7(928) 182-70-70">
                     +7(928) 182-70-70
                 </a></p>
+            <p class="footer-link" style="display: flex; align-items: center">
+                <a href="https://t.me/Suprunovi_Dental" target="_blank"><img src="/images/tg.svg" alt="" width="32"></a>
+                <a href="https://vk.com/suprunovistomatologia" target="_blank"><img src="/images/vk.svg" alt=""
+                                                                                    width="32"></a>
+                <a href="https://www.instagram.com/suprunovi_stomatologia/" target="_blank"><img src="/images/insta.svg"
+                                                                                                 alt="" width="32"></a>
+            </p>
         </div>
     </div>
 </footer>
