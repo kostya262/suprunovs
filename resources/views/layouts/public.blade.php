@@ -124,7 +124,7 @@
                 </a></p>
             <p class="footer-link footer-phone"><img src="/images/footer-phone.svg" alt="phone">
                 <a href="tel:79381827070">
-                    Детское Отделение:<br style="margin-bottom: 8px">+7(938) 182-70-70
+                    Детское Отделение:<br><span style="margin-top: 8px">+7(938) 182-70-70</span>
                 </a></p>
             <p class="footer-link" style="display: flex; align-items: center">
                 <a href="https://t.me/Suprunovi_Dental" target="_blank"><img src="/images/tg.svg" alt="" width="32"></a>
