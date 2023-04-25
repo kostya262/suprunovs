@@ -118,9 +118,13 @@
                 <a href="mailto:ssk-suprunovi@mail.ru">
                     ssk-suprunovi@mail.ru
                 </a></p>
-            <p class="footer-link footer-phone"><img src="/images/footer-phone.svg" alt="email">
-                <a href="tel:+7(928) 182-70-70">
+            <p class="footer-link footer-phone"><img src="/images/footer-phone.svg" alt="phone">
+                <a href="tel:79281827070">
                     +7(928) 182-70-70
+                </a></p>
+            <p class="footer-link footer-phone"><img src="/images/footer-phone.svg" alt="phone">
+                <a href="tel:79381827070">
+                    Детское Отделение: +7(938) 182-70-70
                 </a></p>
             <p class="footer-link" style="display: flex; align-items: center">
                 <a href="https://t.me/Suprunovi_Dental" target="_blank"><img src="/images/tg.svg" alt="" width="32"></a>
