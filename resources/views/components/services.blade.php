@@ -5,6 +5,21 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Медикаментозный сон
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Медикаментозный сон в стоматологии это особый метод обезболивания, при котором пациент
+                        погружается в глубокое забытье. Человек не полностью отключается, а только расслабляется и
+                        успокаивается. Лекарства для ввода пациента в такое состояние подают ингалятором.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Лечение зубов
                     </button>
@@ -176,21 +191,6 @@
                                 препаратов. Его можно разделить на краткосрочное и долгосрочное успокоение.
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        Медикаментозный сон
-                    </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Медикаментозный сон в стоматологии это особый метод обезболивания, при котором пациент
-                        погружается в глубокое забытье. Человек не полностью отключается, а только расслабляется и
-                        успокаивается. Лекарства для ввода пациента в такое состояние подают ингалятором.
                     </div>
                 </div>
             </div>
