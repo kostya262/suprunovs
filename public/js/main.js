@@ -153,6 +153,12 @@
             $('.header-menu-link').on('click', function () {
                 $('.header-menu').removeClass('open');
             });
+            $('.header-menu a').on('click', function (ev) {
+                ev.preventDefault();
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $($(ev.target).data('scroll-by')).offset().top - $('header').innerHeight() - 50
+                }, 300);
+            });
             var doctors_slider = document.getElementById('doctors_slider');
             var docs_slider = document.getElementById('docs_slider');
             var license_slider = document.getElementById('license_slider');

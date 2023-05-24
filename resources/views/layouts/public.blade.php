@@ -78,18 +78,17 @@
             crossorigin="anonymous"></script>
     {{--    --}}{{--  END SCRIPTS  --}}
     <script src="/js/app.js" async></script>
-    {{--    <script src="/js/main.js" defer></script>--}}
+{{--    <script src="/js/main.js" defer></script>--}}
 </head>
 <body>
 <header class="header">
     <div class="container container-sm header-container">
         <img src="/images/logo.png" alt="Супруновы" class="header-logo fast_background">
         <nav class="header-menu">
-            <a href="#index" class="header-menu-link">Приемная</a>
-            <a href="#doctors" class="header-menu-link">Клиника</a>
-            <a href="#price" class="header-menu-link">Цены</a>
-            <a href="#license" class="header-menu-link">Пациентам</a>
-            <a href="#form" class="header-menu-link">Контакты</a>
+            <a href="#index" data-scroll-by="#index" class="header-menu-link">Приемная</a>
+            <a href="#price" data-scroll-by="#price" class="header-menu-link">Цены</a>
+            <a href="#license" data-scroll-by="#license" class="header-menu-link">Пациентам</a>
+            <a href="#form" data-scroll-by="#form" class="header-menu-link">Контакты</a>
         </nav>
         <button class="header-burger">
             <img src="/images/burger.png" alt="burger">
@@ -136,9 +135,5 @@
         </div>
     </div>
 </footer>
-{{--    <script>--}}
-{{--        fast_background.ajax_url = "/js/FastBackground/index.php";--}}
-{{--        fast_background.update();--}}
-{{--    </script>--}}
 </body>
 </html>

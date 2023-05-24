@@ -1,3 +1,39 @@
+.b24-form-control {
+    background-color: $white !important;
+    border: none !important;
+    border-radius: 45px !important;
+    padding: 14px 26px !important;
+    width: 100% !important;
+
+    &::placeholder {
+        color: $gray !important;
+    }
+}
+
+.b24-form-field-agreement {
+    display: none;
+}
+
+.b24-form-padding-side {
+    padding: 0 !important;
+}
+
+.vdpComponent {
+    background-color: #fff !important;
+}
+
+.b24-form-header-padding {
+    display: none !important;
+}
+
+.b24-form-sign {
+    display: none !important;
+}
+
+.b24-form-border-bottom {
+    border: none !important;
+}
+
 .form {
     padding: 28px 0 69px;
 
@@ -34,7 +70,7 @@
         margin-bottom: 12px;
     }
 
-    &-input {
+    .b24-form-control, &-input {
         background-color: $white;
         border: none;
         border-radius: 45px;
