@@ -5,8 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {{--    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">--}}
-    <link rel="icon" href="/favicon.svg">
+    <link rel="icon" href="favicon.svg">
 
     <script type="text/javascript" async="" src="//code.jivosite.com/script/widget/dLbOSG4CKF"></script>
     <script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script>
