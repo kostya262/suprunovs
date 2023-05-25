@@ -14,9 +14,10 @@
                         достичь
                         качества и эстетического результата
                     </p>
-                    <button class="hero-button btn">
+                    <a class="hero-button btn" href="https://b24-abl9wf.bitrix24site.ru/crm_form_o0yss/"
+                       target="_blank">
                         Записаться
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
