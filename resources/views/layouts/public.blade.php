@@ -6,9 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{--    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">--}}
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" sizes="32x32">
 
     <script type="text/javascript" async="" src="//code.jivosite.com/script/widget/dLbOSG4CKF"></script>
     <script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script>
